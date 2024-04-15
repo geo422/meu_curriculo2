@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #FEECE2C3;
+    color: #B46060;
+    min-height: 100vh;
+}
+
+.cabecalho{
+    padding: 2% 5% 0% 2%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    justify-content:center
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#B46060;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao{
+    padding: 5% 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 82px;
+}
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex-start;
+    flex: 1;
+    flex-direction:row;
+    align-self: auto;
+    gap: 40px;  
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 30px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-secundaria);
+    justify-content: center;
+    padding: 0% 0%;
+    align-items: flex-start;
+    justify-content:center;
+}
+
+
+.meus__trabalhos {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-secundaria);
+    justify-content: center; 
+    align-items: center;
+    padding: 5% 5% 0% 10%;
+}
+
+.meus__trabalhos p {
+    text-align: right !important;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    justify-content:left; 
+    gap: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    padding: 21.5px 0;
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao__imagem{
+    width: 200px;
+}
+.rodape {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B46060;;
+    color:#FEECE2C3;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    padding: 20px
+}
